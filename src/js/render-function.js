@@ -1,6 +1,6 @@
 import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
-import { gallery, loader } from "../main";
+import { gallery, loader, loadMore } from "../main";
 
 const modal = new SimpleLightbox('.gallery-item a');
 
@@ -46,4 +46,12 @@ export function hideLoader() {
 
     
 
+}
+export function showLoadMoreButton() {
+  loadMore.classList.remove("is-hidden");
+
+}
+
+export function hideLoadMoreButton() {
+  loadMore.classList.add("is-hidden");
 }

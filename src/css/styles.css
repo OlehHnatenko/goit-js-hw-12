@@ -47,3 +47,17 @@
 .is-hidden {
   display: none;
 }
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1128px;
+  gap: 24px;
+  margin: 0 auto;
+}
+
+.gallery-item {
+  width: 360px;
+  /* height: 200px; */
+
+}
