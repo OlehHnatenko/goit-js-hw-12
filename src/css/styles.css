@@ -44,6 +44,32 @@
   100% { transform: rotate(360deg)}
 } 
 
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+input {
+  height: 30px;
+}
+
+.search-btn {
+  background-color: lightblue;
+}
+
+.load-more {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  margin: 12px auto;
+  height: 30px;
+  align-items: center;
+
+}
+
 .is-hidden {
   display: none;
 }
