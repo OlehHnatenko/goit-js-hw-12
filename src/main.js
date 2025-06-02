@@ -58,7 +58,7 @@ async function onSubmit(evt) {
         }
 
         firstCard = gallery.firstElementChild;
-        scrollSmooth(firstCard);
+        // scrollSmooth(firstCard);
 
     
         
